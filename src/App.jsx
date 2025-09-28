@@ -17,7 +17,7 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route>
-            <Route path="/dreamfence" element={<Home />} />
+            <Route path="/dreamfence/" element={<Home />} />
             <Route path="/dreamfence/about" element={<About />} />
             <Route path="/dreamfence/fenceTypes" element={<FenceTypes />} />
             <Route path="/dreamfence/services" element={<Services />} />
