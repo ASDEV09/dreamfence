@@ -1,0 +1,46 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  /* horizontal (left-right) scroll hide */
+}
+
+.headingFont {
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero-section-all {
+  background-image: url("/public/aboutimg/aboutmain.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  padding: 130px;
+}
+
+.hero-section {
+  background-image: url("/public/homeimg/Group36.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+/* Default arrow hatane ke liye */
+.accordion-button::after {
+  background-image: none !important;
+  /* Bootstrap ka arrow remove */
+  content: "+" !important;
+  /* forcefully plus */
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1;
+  color: #000;
+  transform: none !important;
+  /* Bootstrap ka rotate bhi hata do */
+}
+
+/* Jab accordion open ho to minus show */
+.accordion-button:not(.collapsed)::after {
+  content: "−" !important;
+}

@@ -1,0 +1,28 @@
+.aboutDiv {
+    background-color: #172741;
+    height: 492px;
+    width: 500px;
+    top: 1351px;
+    left: -217px;
+    border-radius: 0px 100px 110px 0px;
+}
+
+.aboutDivImg {
+    position: absolute;
+    margin-left: 100px;
+}
+
+@media (max-width: 1344px) {
+    .aboutDiv {
+    background-color: #172741;
+    height: 352px;
+    width: 350px;
+    top: 1351px;
+    left: -217px;
+    border-radius: 0px 100px 110px 0px;
+}
+
+    .aboutDivImg{
+        width: 270px;
+    }
+}

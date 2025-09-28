@@ -1,0 +1,127 @@
+.mainHeading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+}
+
+.cardHeadingtext {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.cardHeadingtext:hover {
+    font-weight: bold;
+}
+
+.mainImg {
+    position: static;
+}
+
+.mainCard {
+    position: relative;
+    margin-top: -50px;
+}
+
+.aboutDiv {
+    background-color: #172741;
+    height: 492px;
+    width: 500px;
+    top: 1351px;
+    left: -217px;
+    border-radius: 0px 100px 110px 0px;
+}
+
+.aboutDivImg {
+    position: absolute;
+    margin-left: 100px;
+}
+
+.serviceDivHead {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.serviceDivider {
+    height: 19px;
+    background-color: #172741;
+    border-radius: 50px;
+    flex: 1
+}
+
+.whyHead {
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.whyHeadPara {
+    width: 834.7px;
+}
+
+.shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.shadow:focus {
+    box-shadow: none !important;
+}
+
+.shadow:not(.collapsed) {
+    background-color: white !important;
+}
+
+.contactImg {
+    background-image: url("../../../public/contactimg/image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contactHead {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 46px;
+}
+
+.myContactInput {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+.myContactInput:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.contactBtn {
+    border: none;
+    color: #FFF;
+    width: 163px;
+    height: 49px;
+    background-color: #FE0500;
+    clip-path: polygon(15px 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 0 100%, 0 15px);
+}
+
+.footerMain {
+    background: linear-gradient(135deg, #121213, #000000, #162847);
+    color: #FFF;
+}
+
+.footerIcon {
+    width: 40px;
+    height: 40px;
+}
+
+.cardHeadingtext {
+    transition: font-weight 0.3s ease;
+}
+
+.cardCOl:hover .card:hover .cardHeadingtext {
+    font-weight: bold;
+}
+
+
+
+.cardCOl:hover .cardHeadingtext {
+    font-weight: bold;
+}
