@@ -29,19 +29,19 @@ function Footer() {
                                         <div style={{ height: "2px", backgroundColor: "#D9D9D9", marginTop: "10px" }} ></div>
                                     </h6>
                                         <p>
-                                            <Link to={"/"} style={{ textDecoration: "none" }} className="text-reset">Home</Link>
+                                            <Link to={"/dreamfence/"} style={{ textDecoration: "none" }} className="text-reset">Home</Link>
                                         </p>
                                         <p>
-                                            <Link to={"/about"} style={{ textDecoration: "none" }} className="text-reset">About</Link>
+                                            <Link to={"/dreamfence/about"} style={{ textDecoration: "none" }} className="text-reset">About</Link>
                                         </p>
                                         <p>
-                                            <Link to={"/fenceTypes"} style={{ textDecoration: "none" }} className="text-reset">Fence Types</Link>
+                                            <Link to={"/dreamfence/fenceTypes"} style={{ textDecoration: "none" }} className="text-reset">Fence Types</Link>
                                         </p>
                                         <p>
-                                            <Link to={"/services"} style={{ textDecoration: "none" }} className="text-reset">Services</Link>
+                                            <Link to={"/dreamfence/services"} style={{ textDecoration: "none" }} className="text-reset">Services</Link>
                                         </p>
                                         <p>
-                                            <Link to={"/fAQs"} style={{ textDecoration: "none" }} className="text-reset">FAQs</Link>
+                                            <Link to={"/dreamfence/fAQs"} style={{ textDecoration: "none" }} className="text-reset">FAQs</Link>
                                         </p>
                                 </div>
 
