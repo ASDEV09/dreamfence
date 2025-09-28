@@ -95,8 +95,8 @@ function Navbar() {
                             {/* </div> */}
                         </ul>
                         <ul className={`${navstyle.mainLinks} py-4`}>
-                            <li><Link style={{textDecoration:"none" , color: "#FFF"}} to={"/"} >Home</Link ></li>
-                            <li className='mt-2'><Link style={{textDecoration:"none" , color: "#FFF" }} to={"/about"} >About</Link ></li>
+                            <li><Link style={{textDecoration:"none" , color: "#FFF"}} to={"/dreamfence/"} >Home</Link ></li>
+                            <li className='mt-2'><Link style={{textDecoration:"none" , color: "#FFF" }} to={"/dreamfence/about"} >About</Link ></li>
                             <li className='mt-2'><Link style={{textDecoration:"none" , color: "#FFF" }} to={"/fenceTypes"} >Fence Types</Link ></li>
                             <li className='mt-2'><Link style={{textDecoration:"none" , color: "#FFF" }} to={"/services"} >Services</Link ></li>
                             <li className='mt-2'><Link style={{textDecoration:"none" , color: "#FFF" }} to={"/fAQs"} >FAQs</Link ></li>
