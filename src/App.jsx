@@ -17,12 +17,12 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route>
-            <Route path="/dreamfence/" element={<Home />} />
+            <Route path="/dreamfence" element={<Home />} />
             <Route path="/dreamfence/about" element={<About />} />
-            <Route path="/fenceTypes" element={<FenceTypes />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/fAQs" element={<Faqs />} />
-            <Route path="/contactus" element={<ContactUs />} />
+            <Route path="/dreamfence/fenceTypes" element={<FenceTypes />} />
+            <Route path="/dreamfence/services" element={<Services />} />
+            <Route path="/dreamfence/fAQs" element={<Faqs />} />
+            <Route path="/dreamfence/contactus" element={<ContactUs />} />
           </Route>
         </Routes>
       </Router>

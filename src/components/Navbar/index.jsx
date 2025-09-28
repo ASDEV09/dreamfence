@@ -42,12 +42,12 @@ function Navbar() {
                     <img src="./logoImg.jpg" className={`${navstyle.smallImage}`} alt="" />
                     <ul className={`${navstyle.linkbarbackground} navbar-nav ms-auto`}>
                         <div className={`${navstyle.linkbar}`}>
-                            <Link to={"/"} className={`${navstyle.myNavLink} mx-4`}>Home</Link>
-                            <Link to={"/about"} className={`${navstyle.myNavLink} mx-4`}>About</Link>
-                            <Link to={"/fenceTypes"} className={`${navstyle.myNavLink} mx-4`}>Fence Types</Link>
-                            <Link to={"/services"} className={`${navstyle.myNavLink} mx-4`}>Services</Link>
-                            <Link to={"/fAQs"} className={`${navstyle.myNavLink} mx-4`}>FAQs</Link>
-                            <Link to={"/contactus"} className={`${navstyle.myNavLink} mx-4 me-5`}>Contact Us</Link>
+                            <Link to={"/dreamfence"} className={`${navstyle.myNavLink} mx-4`}>Home</Link>
+                            <Link to={"/dreamfence/about"} className={`${navstyle.myNavLink} mx-4`}>About</Link>
+                            <Link to={"/dreamfence/fenceTypes"} className={`${navstyle.myNavLink} mx-4`}>Fence Types</Link>
+                            <Link to={"/dreamfence/services"} className={`${navstyle.myNavLink} mx-4`}>Services</Link>
+                            <Link to={"/dreamfence/fAQs"} className={`${navstyle.myNavLink} mx-4`}>FAQs</Link>
+                            <Link to={"/dreamfence/contactus"} className={`${navstyle.myNavLink} mx-4 me-5`}>Contact Us</Link>
                         </div>
                     </ul>
                 </div>
@@ -95,12 +95,12 @@ function Navbar() {
                             {/* </div> */}
                         </ul>
                         <ul className={`${navstyle.mainLinks} py-4`}>
-                            <li><Link style={{textDecoration:"none" , color: "#FFF"}} to={"/dreamfence/"} >Home</Link ></li>
-                            <li className='mt-2'><Link style={{textDecoration:"none" , color: "#FFF" }} to={"/dreamfence/about"} >About</Link ></li>
-                            <li className='mt-2'><Link style={{textDecoration:"none" , color: "#FFF" }} to={"/fenceTypes"} >Fence Types</Link ></li>
-                            <li className='mt-2'><Link style={{textDecoration:"none" , color: "#FFF" }} to={"/services"} >Services</Link ></li>
-                            <li className='mt-2'><Link style={{textDecoration:"none" , color: "#FFF" }} to={"/fAQs"} >FAQs</Link ></li>
-                            <li className='mt-2'><Link style={{textDecoration:"none" , color: "#FFF" }} to={"/contactus"} >Contact Us</Link ></li>
+                            <li><Link style={{ textDecoration: "none", color: "#FFF" }} to={"/dreamfence"} >Home</Link ></li>
+                            <li className='mt-2'><Link style={{ textDecoration: "none", color: "#FFF" }} to={"/dreamfence/about"} >About</Link ></li>
+                            <li className='mt-2'><Link style={{ textDecoration: "none", color: "#FFF" }} to={"/dreamfence/fenceTypes"} >Fence Types</Link ></li>
+                            <li className='mt-2'><Link style={{ textDecoration: "none", color: "#FFF" }} to={"/dreamfence/services"} >Services</Link ></li>
+                            <li className='mt-2'><Link style={{ textDecoration: "none", color: "#FFF" }} to={"/dreamfence/fAQs"} >FAQs</Link ></li>
+                            <li className='mt-2'><Link style={{ textDecoration: "none", color: "#FFF" }} to={"/dreamfence/contactus"} >Contact Us</Link ></li>
                         </ul>
                     </div>
                 </nav>
